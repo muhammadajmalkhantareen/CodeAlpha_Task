@@ -1,1 +1,39 @@
-<p>this is one</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator-Ajmal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Age Calculator </h1>
+    <main class="container">
+        <div class="input">
+            <label for="birthdate">Enter your birthDate</label>
+            <input type="date" id="birthdate" />
+        </div>
+        <ul>
+            <li> <span class="details" id="years"></span>Years</li>
+            <li> <span class="details" id="months"></span>months</li>
+            <li> <span class="details" id="days"></span>days</li>
+            <li> <span class="details" id="hours"></span>hours</li>
+            <li> <span class="details" id="minutes"></span>minutes</li>
+            <li> <span class="details" id="seconds"></span>seconds</li>
+        </ul>
+        <div class="btns">
+            <button onclick="calculate()">Calculate</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+
+
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
